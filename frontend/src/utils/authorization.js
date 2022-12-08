@@ -61,7 +61,7 @@ class Authorization {
 
 export const authorization = new Authorization({
   // baseUrl: 'http://localhost:3001',
-  baseUrl: 'http://mesto.edu-project.nomoredomains.club',
+  baseUrl: 'http://api.mesto.edu-project.nomoredomains.club',
   headers: {
     "Content-Type": "application/json" 
   },

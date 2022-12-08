@@ -96,7 +96,7 @@ class Api {
 
 export const api = new Api({
   // baseUrl: 'http://localhost:3001',
-  baseUrl: 'http://mesto.edu-project.nomoredomains.club',
+  baseUrl: 'http://api.mesto.edu-project.nomoredomains.club',
   headers: {
     'Content-Type': 'application/json',
   },
