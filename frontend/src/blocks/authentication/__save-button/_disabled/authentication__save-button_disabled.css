@@ -1,0 +1,6 @@
+.authentication__save-button_disabled {
+  background-color: transparent;
+  color: #4f4f4f;
+  border: solid 2px #4f4f4f;
+  cursor: auto;
+}

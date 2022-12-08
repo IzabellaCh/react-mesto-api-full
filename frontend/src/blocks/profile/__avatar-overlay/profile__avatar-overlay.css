@@ -1,0 +1,28 @@
+.profile__avatar-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url(../../../images/avatar_hover.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 26px 26px;
+  opacity: 0;
+  transition: opasity 0.5s linear;
+}
+
+.profile__avatar-overlay:hover {
+  opacity: 1;
+  transition: opasity 0.5s linear;
+}
+
+@media screen and (max-width: 690px) {
+  .profile__avatar-overlay {
+    left: calc(50% - 60px);
+  }
+}

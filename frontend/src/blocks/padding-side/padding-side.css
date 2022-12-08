@@ -1,0 +1,32 @@
+.padding-side {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+@media screen and (min-width: 1280px) {
+  .padding-side {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .padding-side {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .padding-side {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .padding-side {
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+}

@@ -1,0 +1,17 @@
+.authentication__heading {
+  margin: 0;
+  padding: 0 0 44px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 690px) {
+  .authentication__heading {
+    font-size: 20px;
+    padding: 0 0 32px;
+  }
+}

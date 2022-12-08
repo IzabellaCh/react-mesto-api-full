@@ -1,0 +1,68 @@
+@keyframes disappearance {
+  0% {
+    height: 56px;
+    opacity: 1;
+    visibility: visible;
+    position: static;
+  }
+  25% {
+    height: 42px;
+    opacity: 0.75;
+    visibility: visible;
+    position: static;
+  }
+  50%{
+    height: 28px;
+    opacity: 0.5;
+    visibility: visible;
+    position: static;
+  }
+  75% {
+    height: 14px;
+    opacity: 0.25;
+    visibility: visible;
+    position: static;
+  }
+  90% {
+    height: 10px;
+    opacity: 0.25;
+    visibility: visible;
+    position: static;
+  }
+  95% {
+    height: 5px;
+    opacity: 0.25;
+    visibility: visible;
+    position: static;
+  }
+  100% {
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+.header__container_type_hidden {
+  display: none;
+}
+
+@media screen and (max-width: 690px) {
+  .header__container_type_hidden {
+    margin: 0;
+    padding: 42px 0 42px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 18px;
+    border-bottom: 1.5px solid;
+    border-bottom-color: rgb(84, 84, 84, 0.7);
+    width: 100vw;
+    display: flex;
+    opacity: 0;
+    height: 0px;
+    animation: disappearance 1s linear 0s 1 normal forwards;
+    visibility: hidden;
+  }
+}

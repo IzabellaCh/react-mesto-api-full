@@ -1,0 +1,17 @@
+.header__button-open {
+  margin: 0 30px 0 0;
+  padding: 6px 0 0;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-image: url(../../../images/open-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 690px) {
+  .header__button-open {
+    display: none;
+  }
+}
